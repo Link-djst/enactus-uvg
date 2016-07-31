@@ -1,4 +1,4 @@
 // config/database.js
 module.exports = {
-  'url' : 'mongodb://dsosa:dsosa@jello.modulusmongo.net:27017/agijaZ9u'
+  'url' : 'mongodb://enactus:enactus@olympia.modulusmongo.net:27017/emo9saWe'
 }
