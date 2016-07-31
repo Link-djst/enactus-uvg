@@ -1,10 +1,5 @@
 # symthomap
 
-Repositorio privado de Symthomap
+Enactus UVG database Minutas
 
-Run
-  node server.js
-  
-  chrome o firefox: localhost:8080
-
-Ingresar a symthomap.herokuapp.com
+Ingresar a https://enactus-uvg.herokuapp.com/

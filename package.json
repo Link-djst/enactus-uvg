@@ -1,8 +1,8 @@
 {
-  "name" : "symthomap",
-  "description" : "App utilizada para Ingenieria de Software",
+  "name" : "Enactus UVG",
+  "description" : "Enactus UVG Database",
   "main" : "server.js",
-  "repository" : "https://github.com/Link-djst/symtomap",
+  "repository" : "https://github.com/Link-djst/enactus-uvg",
   "license": "ISC",
   "dependencies" : {
     "express" : "~4.0.0",
