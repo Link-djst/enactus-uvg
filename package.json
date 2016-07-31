@@ -1,5 +1,5 @@
 {
-  "name" : "Enactus UVG",
+  "name" : "enactusuvg",
   "description" : "Enactus UVG Database",
   "main" : "server.js",
   "repository" : "https://github.com/Link-djst/enactus-uvg",
