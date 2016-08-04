@@ -1,6 +1,7 @@
 // app/routes.js
 
-var Patient            = require('./models/patient');
+var Minuta = require('./models/minuta');
+var Salida = require('./models/salida');
 
 module.exports = function(app, passport) {
 
@@ -79,10 +80,10 @@ function isLoggedIn(req, res, next) {
 function createPatient(req, res, next) {
 
   // creamos al paciente
-  var newPatient = new Patient();
+  /*var newPatient = new Patient();*/
 
   // ingresamos los valores del paciente
-  newPatient.patient.name = req.param('name');
+/*newPatient.patient.name = req.param('name');
   newPatient.patient.email = req.param('email');
   newPatient.patient.dir = req.param('dir');
   newPatient.patient.symptoms = req.param('symptoms');
@@ -93,5 +94,5 @@ function createPatient(req, res, next) {
       res.send(err);
 
     res.redirect('/dashboard');
-  });
+  });*/
 }
