@@ -10,6 +10,8 @@ var mongoose = require('mongoose');
 var passport = require('passport');
 var flash    = require('connect-flash');
 
+var routes = require('./app/routes.js');
+
 var morgan       = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
@@ -40,7 +42,14 @@ app.use(passport.session()); // para logins persistentes
 app.use(flash()); // flash messages guardados en sesion
 
 // rutas =======================================================================
-require('./app/routes.js')(app, passport); // cargar rutas y passport configurado
+//require('./app/routes.js')(app, passport); // cargar rutas y passport configurado
+
+// Index Route
+app.get('/', routes.index);
+
+// Page Route
+app.get('/page/:page/:skip', routes.page);
+
 
 // run =========================================================================
 app.listen(port);
